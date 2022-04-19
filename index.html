@@ -5,6 +5,11 @@
 <meta charset="utf-8" />
 <title>За разум!</title>
 <style type="text/css">
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	padding: 2em 10%;
 	font-size: 24px;
@@ -12,18 +17,19 @@ body {
 	text-align: center;
 	color: #333;
 	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
 }
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
-li {
-	margin: 0.5em 0;
-	padding: 0;
+li,h1 {
+	margin-bottom: 1em;
 }
 a {
 	color: #c00;
+	font-weight: bold;
 }
 a:hover {
 	color: #f30;
@@ -31,10 +37,13 @@ a:hover {
 </style>
 </head>
 <body>
+
 <h1>За разум!</h1>
 <ul>
-<li><a href="https://www.ceremonia.ru/">Церемония</a></li>
-<li><a href="https://susanin.zarazum.ru/">Сусанинъ</a></li>
+	<li><a href="https://susanin.zarazum.ru/">Сусанинъ</a></li>
+	<li><a href="https://www.ceremonia.ru/">Ceremonia</a></li>
+	<li><a href="https://nina-vlahova.zarazum.ru/">Нина Влахова</a></li>
 </ul>
+
 </body>
 </html>
